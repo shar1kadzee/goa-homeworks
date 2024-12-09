@@ -1,5 +1,32 @@
 # 1) სამკუთხდები დამიხაზეთ 120 ცალი ოღონდ მხოლოდ კენტი <3 რიცხვებით ფუქნციების გამოყევებეა არ დაგვავიწყდეს
 # თუ ჩვენი სამკუთხედი დამეთხვევა კენტ index მაში ნ სამკუთხედი იყოს მწვანე თუ არა და იყოსლურჯი
+from turtle import * 
+speed(30)
+def triangle(a):
+    if a % 2 == 0:
+        color("red")
+    else:
+        color("black")
+    begin_fill()
+    forward(10)
+    left(120)
+    forward(10)
+    left(120)
+    forward(10)
+    end_fill()
+    penup()
+    left(30)
+    forward(10)
+    left(90)
+
+for i in range(50):
+    triangle(i)
+exitonclick()
+
+
+
+
+
 
 
 # 2) hello_world-როცა დავწერთ გამოვიტანოს print() 
