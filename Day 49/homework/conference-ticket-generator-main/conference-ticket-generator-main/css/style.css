@@ -1,0 +1,116 @@
+/*  font face  */
+
+@import url('https://fonts.googleapis.com/css2?family=Agu+Display&family=Inconsolata:wght@200..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playwrite+AU+SA:wght@100..400&display=swap');
+
+/* font class start */
+
+
+.font-bold {
+    font-family: Inconsolata-Bold;
+}
+
+.font-extra-bold {
+    font-family: Inconsolata-ExtraBold;
+}
+
+.font-medium {
+    font-family: Inconsolata-Medium;
+}
+
+.font-regular {
+    font-family: Inconsolata-Regular;
+}
+
+/* font class end */
+/* color text class start */
+.text-neutral {
+    color: hsl(0, 0%, 100%);
+}
+
+.text-neutral-300 {
+    color: hsl(252, 6%, 83%);
+}
+
+.text-neutral-500 {
+    color: hsl(252, 6%, 83%);
+}
+
+.text-neutral-700 {
+    color: hsl(245, 15%, 58%);
+}
+
+.text-neutral-900 {
+    color: hsl(248, 70%, 10%);
+}
+
+.text-orange-500 {
+    color: hsl(7, 88%, 67%);
+}
+
+.text-orange-700 {
+    color: hsl(7, 71%, 60%);
+}
+
+/* text background class start  */
+
+.linear {
+    background: linear-gradient(hsl(7, 86%, 67%), hsl(0, 0%, 100%));
+}
+
+
+.bg-neutral {
+    background: hsl(0, 0%, 100%);
+}
+
+.bg-neutral-300 {
+    background: hsl(252, 6%, 83%);
+}
+
+.bg-neutral-500 {
+    background: hsl(252, 6%, 83%);
+}
+
+.bg-neutral-700 {
+    background: hsl(245, 15%, 58%);
+}
+
+.bg-neutral-900 {
+    background: hsl(248, 70%, 10%);
+}
+
+.bg-orange-500 {
+    background: hsl(7, 88%, 67%);
+}
+
+.bg-orange-700 {
+    background: hsl(7, 71%, 60%);
+}
+
+/* text background class end  */
+
+.flex {
+    display: flex;
+}
+
+.flex-col {
+    flex-direction: column;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.align-center {
+    align-items: center;
+}
+
+.background-img {
+    /*                  ხაზები */
+    background: url(../assets/images/pattern-lines.svg),
+    /*             ფონი */
+    url(../assets/images/background-desktop.png);
+    background-repeat: no-repeat;
+    /*                ხაზები  ფონი */
+    background-size: cover,cover;
+    height: 100vh;
+}
